@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c823e69c6f1c4def800c583982220826" Name="Diagram1">
+        <EntityTypeShape EntityType="AracKiralamaModel.Arac" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaModel.Kiralik" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaModel.Kullanici" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaModel.Rezervasyon" Width="1.5" PointX="8.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaModel.Role" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaModel.Sirket" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="AracKiralamaModel.FK_Arac_Sirket" ManuallyRouted="false" />
+        <AssociationConnector Association="AracKiralamaModel.FK_Kiralik_Arac" ManuallyRouted="false" />
+        <AssociationConnector Association="AracKiralamaModel.FK_Rezervasyon_Arac" ManuallyRouted="false" />
+        <AssociationConnector Association="AracKiralamaModel.FK_Kiralik_Kullanici" ManuallyRouted="false" />
+        <AssociationConnector Association="AracKiralamaModel.FK_Kullanici_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="AracKiralamaModel.FK_Kullanici_Sirket" ManuallyRouted="false" />
+        <AssociationConnector Association="AracKiralamaModel.FK_Rezervasyon_Kullanici" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
